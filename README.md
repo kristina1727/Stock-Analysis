@@ -8,15 +8,21 @@ To refactor the Module 2 soulution code to loop through the data and to determin
 ### _2017 - 2018 Stock Performance_
 As shown in the stock analysis table below, Green Energy stocks performed extremely well in 2017, specifically DQ and SEDG who had positive returns of 199.4% and 185.4% respectively. The one exeption the to the positive returns of 2017 was TERP who had a slightly negative regurn at -7.2%. 
 
+![2017 Output](https://user-images.githubusercontent.com/88597956/136121142-c18a0701-23ef-4c2b-ac0d-ba0b0ba2bd83.PNG)
+![2018 Output](https://user-images.githubusercontent.com/88597956/136121146-6611b862-e1c1-4c58-ae30-417ce1900b45.PNG)
+
+
 Green Energy stocks for 2018 paints a completely different picture with only 2 of the 12 stocks having positive returns. Which if just looking at 2018 gives the impression that Green Energy stocks may not be the stock type to put your money into. However, both ENPH and RUN stock had a positive return year over year, ENPH returned 211.4% and RUN returned 89.5% over the 2 years. If I were to provide a recommendation to my clients specifically, my parents, I would suggest that they invest their money between these two companies.
 
-INSERT IMAGES
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/88597956/136120599-ed74d67e-2d12-4df4-9ebf-2b38b6d73743.PNG)
 
 
 ### _Refactored VBA Script_
 As anticipated, the refactored script ran more quickly than the original script. The original script ran at about 1.5 seconds on average between 2017 and 2018. The refactored script ran at about .25 seconds on average fro 2017 & 2018 as you can see by the images below. I can see where this would be beneficial should we be running against a much larger dataset but the for a data set of this size the average person would have been unaware at the slight decrease in run time.
 
-INSERT IMAGES
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/88597956/136120615-c20347cd-ae08-4237-bbb6-3404d3eac039.PNG)
+
 
 ## **Summary**
 The natural advantage of refactoring code is that your code will run quicker wich of course is beneficial with larger datasets. A disadvantage of refactoring code is that you need to take the time to go back thorugh your code to determine if there are spots where you are able to improve it and you have to spend time researching potential ways to improve your code especially as a beginner and not knowing what terms to search for. That takes time and as many of us know that is not always we have a plethora of. 
